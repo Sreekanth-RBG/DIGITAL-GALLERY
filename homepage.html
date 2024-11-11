@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Art Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: lightgray;
+            background-image: url(back2.jpg);
+            height: 100%;
+        }
+        header {
+            background-color: lightskyblue;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            background-image: url(img2.jpg);
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: red;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .div1 {
+            height: 100%;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px black;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .gallery-item {
+            margin: 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+            overflow: hidden;
+            width: 300px;
+            box-shadow: 0 2px 5px black;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+        }
+        .button{
+            text-align: center;
+            align-content: center;
+            background-color: yellow;
+            width: 100%;
+        }
+        footer {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Digital Art Gallery</h1>
+    <nav>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<div class="div1">
+    <h2>Explore the World of Digital Art</h2>
+</div>
+
+<section id="about">
+    <h2 style="text-align: center; " ><big>Introduction</big></h2>
+    <p style="text-align: center;"><i>Welcome to our Digital Art Gallery, where creativity meets technology. We showcase a diverse range of digital artworks from talented artists around the world.</i></p>
+</section>
+
+<section id="gallery">
+    <h2 style="text-align: center;"><big>Gallery</big></h2>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src= "inst 30.jpg" alt="Art 1"> 
+        </div>
+        <div class="gallery-item">
+            <img src="inst 31.jpg" alt="Art 2"> 
+        </div>
+        <div class="gallery-item">
+            <img src="main img 3.jpg" alt="Art 3"> 
+        </div>
+    </div>
+</section>
+<form action="gallery.html" method="get" >
+    <input type="submit" class="button" value="SEE MORE....">
+</form>
+<footer>
+    <p>&copy; <big>2023 Digital Art Gallery. All rights reserved.</big></p>
+</footer>
+</body>
+</html>
